@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+*{
+    font-family: 'Varela Round';
+    
+}
+
+.banner-section{
+    background: #000 url('../images/bg-masthead.jpg');
+    height: 100vh;
+    background-size: cover;
+    position:  relative;
+}
+.row{}
+.banner{
+    text-align:  center;
+}
+.banner h1{font-size:  6em;background: -webkit-linear-gradient(#eee, #333);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.banner p{}
+.banner a{}
+.vh-100{
+    height: 100vh;
+}
+.btn-custom{background-color: #1ac5c5;padding: 10px 20px;box-shadow: 0 0 107px #5b5b5b;}
+
+.btn-custom:hover{
+    color: white;
+    background: #178076;
+}
+.btn-custom:focus{
+       
+      outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.25);
+}
+.overlay{
+    position:  absolute;
+    height:  100%;
+    width:  100%;
+   
+       background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-masthead.jpg);
+}
+
+.about{
+    background: linear-gradient(to bottom,rgb(21, 21, 21) 0,rgb(20, 20, 20) 75%,#161616 100%),url(../img/bg-masthead.jpg);
+}
+article{
+    color:  white;
+    text-align:  center;
+}
+.shoreline{}
+.shoreline-img{
+    position:  relative;
+}
+.shoreline-img img{}
+.shoreline-line{position:  absolute;height: 153px;width: 8px;right: -8px;bottom: 36%;background: #5a9490;}
+.shoreline-img span{}
+
+.banner a{}
+.button {
+
+        box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    background: #66a19d;
+}
+.subscribe{
+
+      
+     
+    background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../images/p3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{}
+
+.vh-50{
+    min-height: 60vh;
+}
+
+.footer{
+    background: linear-gradient(to bottom,rgb(21, 21, 21) 0,rgb(20, 20, 20) 75%,#161616 100%);
+}
+.about-line{
+        position: absolute;
+    height: 5px;
+    width: 58px;
+    left: 117px;
+    bottom: 42%;
+    background: #5a9490;
+}
+
+.card-body{}
+.card-body ul{padding: 0;
+              margin:0;
+          }
+.card-body ul li{ list-style: none; }
+
+.contacts{}
+.contacts ul{
+    padding: 47px;
+    margin:  0;
+}
+.contacts ul li{
+    list-style:  none;
+    display:  inline;
+    padding: 15px;
+    border-radius: 585px;
+    background: #3f3f3f;
+}
+.contacts ul li a{
+    border-radius: 57px;
+    /* background: #66a19d; */
+}
